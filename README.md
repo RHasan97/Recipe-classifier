@@ -31,7 +31,7 @@ The trained model has a memory of 300+MB. I compressed this model using ONNX qua
 
 The model is deployed to HuggingFace Spaces Gradio App. The implementation can be found in `Recipe app` folder or [here](https://huggingface.co/spaces/Rhasan97/Recipe) 
 
-<img src = "Recipe app/app_image.PNG" width="800" height="400">
+<img src = "Recipe app/app_image.png" width="800" height="400">
 
 ## Web Deployment
 
