@@ -2,4 +2,4 @@ Get trained and exported models here: https://drive.google.com/drive/folders/1--
 
 files ending with '.pkl' are exported files <br/>
 
-'recipe-classifier-stage-8.pkl' is the final deployed model 
+'recipe-classifier-stage-1.pkl' is the final deployed model 
