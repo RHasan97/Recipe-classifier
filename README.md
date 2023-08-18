@@ -1,4 +1,3 @@
-
 <img src = "image/pngtree-black-atmosphere-simple-meal-food-food-banner-picture-image_1084037.jpg" width="1440" height="300">
 
 # Recipe-classifier
@@ -38,7 +37,7 @@ The model is deployed to HuggingFace Spaces Gradio App. The implementation can b
 ## Web Deployment
 Deployed a Flask App built to take descprition and show the genres as output. Check `flask ` branch. The website is live [here](https://recipe-classifier-7lb6.onrender.com/) 
 
-<img src = "image/Render home page.png" width="800" height="400">
-<img src = "image/Render result page.png" width="800" height="200">
+<img src = "image/Home page.png" width="800" height="400">
+<img src = "image/Result Page.png" width="800" height="400">
 
 
