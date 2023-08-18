@@ -1,7 +1,7 @@
 # Recipe-classifier
 
 A text classification model from data collection, model training, and deployment. <br/>
-The model can classify 55 different types of food types <br/>The keys of `Recipe app\Recipe\recipe_types_encoded.json` shows the food types
+The model can classify 55 different types of food types <br/>The keys of `Recipe\recipe_types_encoded.json` shows the food types
 
 
 ## Data Collection
@@ -29,9 +29,9 @@ The trained model has a memory of 300+MB. I compressed this model using ONNX qua
 
 ## Model Deployment
 
-The model is deployed to HuggingFace Spaces Gradio App. The implementation can be found in `Recipe app` folder or [here](https://huggingface.co/spaces/Rhasan97/Recipe) 
+The model is deployed to HuggingFace Spaces Gradio App. The implementation can be found in `Recipe` folder or [here](https://huggingface.co/spaces/Rhasan97/Recipe) 
 
-<img src = "Recipe app/app_image.png" width="800" height="400">
+<img src = "image/app_image.png" width="800" height="400">
 
 ## Web Deployment
 Deployed a Flask App built to take descprition and show the genres as output. Check `flask ` branch. The website is live [here](https://recipe-classifier-7lb6.onrender.com/) 
