@@ -1,7 +1,7 @@
 # Recipe-classifier
 
 A text classification model from data collection, model training, and deployment. <br/>
-The model can classify 55 different types of food types <br/>The keys of `Recipe\recipe_types_encoded.json` shows the food types
+The model can classify 48 different types of food types <br/>The keys of `Recipe\recipe_types_encoded.json` shows the food types
 
 
 ## Data Collection
@@ -17,7 +17,7 @@ In total, I scraped 27,313 recipe details and cleaned the data with `scraper\Cle
 
 ## Data Preprocessing
 
-Initially there were *987* different food types in the dataset. After some analysis, I found out *938* of them are rare. So, I removed those types and then I have *49* types. After that, I removed the description without any types resulting in *27,313* samples.
+Initially there were *988* different food types in the dataset. After some analysis, I found out *940* of them are rare. So, I removed those types and then I have *48* types. After that, I removed the description without any types resulting in *27,313* samples.
 
 ## Model Training
 
