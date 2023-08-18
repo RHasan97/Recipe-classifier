@@ -11,10 +11,6 @@ if __name__ == "__main__":
     food_urls = []
     
     for idx in tqdm(range(37)):
-        #button = driver.find_element(By.XPATH,'//*[@id="notice"]')
-        #driver.execute_script("nomodule[2].scrollIntoView();",button) 
-        #driver.execute_script("nomodule[2].click();", button)
-        # time.sleep(5)
         
         page_no = idx + 1
         page_url = f"{base_url}?page={page_no}"
@@ -30,6 +26,6 @@ if __name__ == "__main__":
                     "title": recipe,
                     "url": food_url
                 })
-    ##print(food_urls)
+    
     df = pd.DataFrame(data=food_urls, columns=food_urls[0].keys())
     df.to_csv("food_recipe12_urls.csv", index=False)
