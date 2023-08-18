@@ -1,5 +1,5 @@
 
-<img src = "image/pngtree-black-atmosphere-simple-meal-food-food-banner-picture-image_1084037" width="1600" height="300">
+<img src = "image/pngtree-black-atmosphere-simple-meal-food-food-banner-picture-image_1084037.jpg" width="1440" height="300">
 
 # Recipe-classifier
 
