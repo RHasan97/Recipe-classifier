@@ -9,7 +9,7 @@ def index():
         input_text = request.form['text']
         output = predict_recipe(input_text)[0]
         confidence_list = output['confidences']
-        labels = [elem['label'] for elem in confidence_list if elem['confidence'] >= 0.3 ]
+        labels = [elem['label'] for elem in confidence_list if elem['confidence'] >= 0.25 ]
         label_text = ""
         for idx, label in enumerate(labels):
             label_text = label_text + label
