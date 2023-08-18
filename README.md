@@ -34,5 +34,9 @@ The model is deployed to HuggingFace Spaces Gradio App. The implementation can b
 <img src = "Recipe app/app_image.png" width="800" height="400">
 
 ## Web Deployment
+Deployed a Flask App built to take descprition and show the genres as output. Check `flask ` branch. The website is live [here](https://recipe-classifier-7lb6.onrender.com/) 
+
+<img src = "deployment/flask_app_home.PNG" width="800" height="400">
+<img src = "deployment/flask_app_results.PNG" width="800" height="200">
 
 
