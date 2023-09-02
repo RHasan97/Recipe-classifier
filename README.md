@@ -22,7 +22,14 @@ Initially there were *988* different food types in the dataset. After some analy
 
 ## Model Training
 
-Finetuned a `distilrobera-base` model from HuggingFace Transformers using Fastai and Blurr. The model training notebook can be viewed [here](https://github.com/RHasan97/Recipe-classifier/blob/main/Notebooks/Recipe_classifier.ipynb)
+Finetuned a `distilroberta-base`, `distilbert-base-cased` model from HuggingFace Transformers using Fastai and Blurr. The model training notebook can be viewed [here](https://github.com/RHasan97/Recipe-classifier/blob/main/Notebooks/Recipe_classifier.ipynb)
+**Models Performance:**
+| Models          | Multilabel Accuracy Score(%)  |
+|:----------------:|:----------------:|
+| distilroberta-base       |       94.0        |
+| distilbert-base-cased        | 93.8    | 
+|        | 0  | 
+|        | 0   |
 
 ## Model Compression and ONNX Inference
 
