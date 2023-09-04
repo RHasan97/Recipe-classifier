@@ -2,7 +2,7 @@
 
 # Recipe-classifier
 
-A text classification model from data collection, model training, and deployment. The model can classify 55 different types of food types. The keys of `Recipe\recipe_types_encoded.json` shows the food types
+A text classification model from data collection, model training, and deployment. The model can classify 55 different types of food types. The keys of `Recipe\recipe_types_encoded19.json` shows the food types
 
 
 ## Data Collection
