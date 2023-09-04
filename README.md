@@ -18,11 +18,12 @@ In total, I scraped 27,313 recipe details and cleaned the data with `scraper\Cle
 
 ## Data Preprocessing
 
-Initially there were *988* different food types in the dataset. After some analysis, I found out *940* of them are rare. So, I removed those types and then I have *48* types. After that, I removed the description without any types resulting in *27,313* samples.
+Initially there were *1025* different food types in the dataset. After some analysis, I found out *940* of them are rare. So, I removed those types and then I have *55* types. After that, I removed the description without any types resulting in *27,313* samples.
 
 ## Model Training
 
-Finetuned a `distilroberta-base`, `distilbert-base-cased` model from HuggingFace Transformers using Fastai and Blurr. The model training notebook can be viewed [here](https://github.com/RHasan97/Recipe-classifier/blob/main/Notebooks/Recipe_classifier.ipynb)
+Finetuned a `distilroberta-base` model from HuggingFace Transformers using Fastai and Blurr. The model training notebook can be viewed [here](https://github.com/RHasan97/Recipe-classifier/blob/main/Notebooks/Recipe_classifier.ipynb). The other models have also performed well and their performances are provided below.
+
 **Models Performance:**
 | Models          | Multilabel Accuracy Score(%)  |
 |:----------------:|:----------------:|
