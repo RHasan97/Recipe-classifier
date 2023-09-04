@@ -2,7 +2,7 @@
 
 # Recipe-classifier
 
-A text classification model from data collection, model training, and deployment. The model can classify 48 different types of food types. The keys of `Recipe\recipe_types_encoded.json` shows the food types
+A text classification model from data collection, model training, and deployment. The model can classify 55 different types of food types. The keys of `Recipe\recipe_types_encoded.json` shows the food types
 
 
 ## Data Collection
@@ -26,11 +26,13 @@ Finetuned a `distilroberta-base`, `distilbert-base-cased` model from HuggingFace
 **Models Performance:**
 | Models          | Multilabel Accuracy Score(%)  |
 |:----------------:|:----------------:|
-| distilroberta-base       |       94.0        |
-| distilbert-base-cased        | 93.8    | 
-|        | 0  | 
-|        | 0   |
-
+| distilroberta-base|       93.8        |
+| distilbert-base-cased| 93.6    | 
+| roberta-base  | 93.7 | 
+| albert-base-v2    | 93.4   |
+| klue/bert-base    | 93.5   |
+| microsoft/deberta-base  | 93.2   |
+| bert-base-uncased  | 93.5   |
 ## Model Compression and ONNX Inference
 
 The trained model has a memory of 300+MB. I compressed this model using ONNX quantization and brought it under 80MB. 
