@@ -11,7 +11,7 @@ Data was collected from recipe details Website Listing: https://eatsmarter.com/<
 The data collection process is divided into 2 steps:
 
 1. **Recipe URL Scraping:** The recipe urls were scraped with `Scraper\Urls\scp.py` and the urls are stored along with recipe titles in `scraper\Url_data`
-2. **Book Details Scraping:** Using the urls, recipe description and types are scraped with `scraper\Details\details_scp.py` and they are stored in `data\Details_data`
+2. **Recipe Details Scraping:** Using the urls, recipe description and types are scraped with `scraper\Details\details_scp.py` and they are stored in `data\Details_data`
 
 In total, I scraped 27,313 recipe details and cleaned the data with `scraper\Cleaning\clean.py` to get the final data.
 
