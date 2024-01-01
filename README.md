@@ -18,7 +18,7 @@ In total, I scraped 27,313 recipe details and cleaned the data with `scraper\Cle
 
 ## Data Preprocessing
 
-Initially there were *1025* different food types in the dataset. After some analysis, I found out *940* of them are rare. So, I removed those types and then I have *55* types. After that, I removed the description without any types resulting in *27,313* samples.
+Initially there were *1025* different food types in the dataset. After some analysis, I found out *940* of them are rare. So, I removed those types and then I have *55* types. After that, I removed the description without any types resulting in *22,683* samples.
 
 ## Model Training
 
